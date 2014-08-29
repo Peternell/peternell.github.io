@@ -12,66 +12,69 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
    ===================== */ 
 
 html {
-	height: 100%;
-	width: 100%;
-	background: #313130 url(img/bg.jpg) no-repeat left center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background: #313130 url(img/bg.jpg) no-repeat left center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
 }
 
 h1 {
-	color: white;
-	font-family: 'Montserrat';
-	font-weight: lighter;
-	font-size: 41px;
-	text-transform: uppercase;
-	letter-spacing: 9px
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: lighter;
+  font-size: 41px;
+  text-transform: uppercase;
+  letter-spacing: 9px
 }
 
 p {
-	color: white;
-	font-weight: lighter;
-	line-height: 24px;
-	font-size: 16px;
+  color: white;
+  font-weight: lighter;
+  line-height: 24px;
+  font-size: 16px;
 }
 
 a {
-	color: white;
-	text-decoration: none;
-	border-bottom: 1px solid white;
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
 }
 
 a:hover {
-	color: white;
-	text-decoration: none;
-	border-bottom: none;
+  color: white;
+  text-decoration: none;
+  border-bottom: none;
 }
 
 a:visited {
-	color: white;
+  color: white;
 }
 
 .wrap {
-	max-width: 550px;
-	height: 100%;
-	padding: 20px;
-	margin: 100px 0 0 100px;
-	text-align: center;
-	font-family: 'Montserrat',sans-serif;
+  max-width: 550px;
+  height: 100%;
+  padding: 20px;
+  margin: 100px 0 0 100px;
+  text-align: center;
+  font-family: 'Montserrat',sans-serif;
 }
 
 .twtr {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 .twtr a {
-	border: 1px solid white;
-	padding: 10px;
+  border: 1px solid white;
+  padding: 10px;
 }
 
+/* =====================
+   Google Font Families
+   ===================== */ 
 
 @font-face {
   font-family: 'Bitter';
@@ -92,83 +95,106 @@ a:visited {
   src: local('Montserrat-Regular'), url(http://themes.googleusercontent.com/static/fonts/montserrat/v3/zhcz-_WihjSQC0oHJ9TCYL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
 }
 
+/* =====================
+   Animate.CSS
+   ===================== */ 
 
-.animated{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}.animated.hinge{-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}@-webkit-keyframes fadeIn {
-	0% {opacity: 0;}	100% {opacity: 1;}
+.animated {
+  -webkit-animation-fill-mode:both;
+  -moz-animation-fill-mode:both;
+  -ms-animation-fill-mode:both;
+  -o-animation-fill-mode:both;
+  animation-fill-mode:both;-webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  -ms-animation-duration:1s;
+  -o-animation-duration:1s;
+  animation-duration:1s;
+}
+
+/* .animated.hinge {
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  -ms-animation-duration:1s;
+  -o-animation-duration:1s;
+  animation-duration:1s;
+} */
+
+@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}  100% {opacity: 1;}
 }
 
 @-moz-keyframes fadeIn {
-	0% {opacity: 0;}	
-	100% {opacity: 1;}
+  0% {opacity: 0;}  
+  100% {opacity: 1;}
 }
 
 @-o-keyframes fadeIn {
-	0% {opacity: 0;}	
-	100% {opacity: 1;}
+  0% {opacity: 0;}  
+  100% {opacity: 1;}
 }
 
 @keyframes fadeIn {
-	0% {opacity: 0;}	
-	100% {opacity: 1;}
+  0% {opacity: 0;}  
+  100% {opacity: 1;}
 }
 
 .fadeIn {
-	-webkit-animation-name: fadeIn;
-	-moz-animation-name: fadeIn;
-	-o-animation-name: fadeIn;
-	animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  -moz-animation-name: fadeIn;
+  -o-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
 @-webkit-keyframes fadeInDown {
-	0% {
-		opacity: 0;
-		-webkit-transform: translateY(-20px);
-	}
-	
-	100% {
-		opacity: 1;
-		-webkit-transform: translateY(0);
-	}
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+  }
+  
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
 }
 
 @-moz-keyframes fadeInDown {
-	0% {
-		opacity: 0;
-		-moz-transform: translateY(-20px);
-	}
-	
-	100% {
-		opacity: 1;
-		-moz-transform: translateY(0);
-	}
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(-20px);
+  }
+  
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0);
+  }
 }
 
 @-o-keyframes fadeInDown {
-	0% {
-		opacity: 0;
-		-o-transform: translateY(-20px);
-	}
-	
-	100% {
-		opacity: 1;
-		-o-transform: translateY(0);
-	}
+  0% {
+    opacity: 0;
+    -o-transform: translateY(-20px);
+  }
+  
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0);
+  }
 }
 
 @keyframes fadeInDown {
-	0% {
-		opacity: 0;
-		transform: translateY(-20px);
-	}
-	
-	100% {
-		opacity: 1;
-		transform: translateY(0);
-	}
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .fadeInDown {
-	-webkit-animation-name: fadeInDown;
-	-moz-animation-name: fadeInDown;
-	-o-animation-name: fadeInDown;
-	animation-name: fadeInDown;
+  -webkit-animation-name: fadeInDown;
+  -moz-animation-name: fadeInDown;
+  -o-animation-name: fadeInDown;
+  animation-name: fadeInDown;
 }
