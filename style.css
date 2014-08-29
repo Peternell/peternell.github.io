@@ -14,7 +14,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
 html {
   height: 100%;
   width: 100%;
-  background: #313130 url(img/bg.jpg) no-repeat left center fixed;
+  background: #313130 url(img/me.jpeg) no-repeat left center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
