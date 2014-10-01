@@ -42,7 +42,7 @@ html, body {
 }
 
 .follow a {
-  font-family: ColfaxThin, sans-serif;
+  font-family: ColfaxLight, sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   color: white;
@@ -69,7 +69,7 @@ html, body {
 .fName {
   display: inline;
   text-transform: lowercase;
-  font-family: ColfaxThin, sans-serif;
+  font-family: ColfaxLight, sans-serif;
   letter-spacing: 3px;
 }
 
@@ -82,7 +82,7 @@ html, body {
 .subHead {
   text-transform: uppercase;
   font-size: 0.875em;
-  font-family: ColfaxThin, sans-serif;
+  font-family: ColfaxLight, sans-serif;
 }
 
 .subHead h2 {
