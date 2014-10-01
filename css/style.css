@@ -1,21 +1,21 @@
 @font-face {
   font-family: ColfaxRegular;
-  src: url(../font/Colfax-Regular.otf);
+  src: url(../font/Colfax-Regular.otf) format ('opentype');
 }
 
 @font-face {
   font-family: ColfaxBlack;
-  src: url(../font/Colfax-Black.otf);
+  src: url(../font/Colfax-Black.otf) format ('opentype');
 }
 
 @font-face {
   font-family: ColfaxThin;
-  src: url(../font/Colfax-Thin.otf);
+  src: url(../font/Colfax-Thin.otf) format ('opentype');
 }
 
 @font-face {
   font-family: ColfaxLight;
-  src: url(../font/Colfax-Light.otf);
+  src: url(../font/Colfax-Light.otf) format ('opentype');
 }
 
 
